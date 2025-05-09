@@ -20,22 +20,23 @@ This project utilizes:
 
 ## Installation & Usage
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/SaiSandeepSrirangapuram/ElectricVehicle_Segmentation.git
+    ```bash
+    git clone https://github.com/SaiSandeepSrirangapuram/ElectricVehicle_Segmentation.git
+    ```
 
 2. Install dependencies:
+    ```bash
+    pip install pandas numpy scikit-learn matplotlib seaborn
+    ```
 
-   ```bash
-   pip install pandas numpy scikit-learn matplotlib seaborn
 3. Run Jupyter notebooks to explore clustering and segmentation insights.
 
+## Future Enhancements
+- Integrating **vector databases** for improved knowledge retrieval.
+- Implementing **Retrieval-Augmented Generation (RAG)** to refine AI-driven insights.
+- Enhancing clustering models using **deep learning techniques**.
 
-Future Enhancements
-Integrating vector databases for improved knowledge retrieval.
+## About the Author
+**Sai Sandeep** - Data scientist passionate about leveraging machine learning for **market segmentation** and **EV adoption strategies**.
 
-Implementing Retrieval-Augmented Generation (RAG) to refine AI-driven insights.
-
-Enhancing clustering models using deep learning techniques.
-
-About the Author
-Sai Sandeep - Data scientist passionate about leveraging machine learning for market segmentation and EV adoption strategies.
+---

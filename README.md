@@ -57,15 +57,16 @@ This project analyzes electric vehicle (EV) adoption trends in India using advan
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/SaiSandeepSrirangapuram/ElectricVehicle_Segmentation.git
-
+```
 ### 2. Navigate to the Project Directory
 ```bash
 ElectricVehicle_Segmentation
-
+```
 ### 3. Install Dependencies
 ```bash
 pip install -r requirements.txt
-
+```
 ### Launch Jupyter Notebook
 ```bash
 jupyter notebook
+```

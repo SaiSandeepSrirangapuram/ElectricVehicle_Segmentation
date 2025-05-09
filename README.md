@@ -1,12 +1,12 @@
-# 🚗 Electric Vehicle Segmentation: A Data Science Approach
+#  Electric Vehicle Segmentation: A Data Science Approach
 
-## 📌 Project Overview
+##  Project Overview
 
 This project analyzes electric vehicle (EV) adoption trends in India using advanced **data science techniques**. By employing clustering algorithms and geospatial analysis, it identifies key income and geographic segments, offering actionable insights for targeted EV marketing strategies.
 
 ---
 
-## 🧠 Data Science Methodologies Employed
+##  Data Science Methodologies Employed
 
 ### 1. **Data Preprocessing & Feature Engineering**
 - **Handling Missing Values**: Implemented strategies to manage incomplete data entries.
@@ -33,7 +33,7 @@ This project analyzes electric vehicle (EV) adoption trends in India using advan
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 - `EV_Income_segmentation.ipynb`: Notebook detailing income-based clustering using K-Means and GMM.
 - `Geographic_variable.ipynb`: Notebook focusing on geographic segmentation through hierarchical clustering.
@@ -42,7 +42,7 @@ This project analyzes electric vehicle (EV) adoption trends in India using advan
 
 ---
 
-## 🛠️ Technologies & Libraries
+##  Technologies & Libraries
 
 - **Programming Language**: Python
 - **Data Manipulation**: pandas, NumPy
@@ -52,7 +52,7 @@ This project analyzes electric vehicle (EV) adoption trends in India using advan
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### 1. Clone the Repository
 ```bash
@@ -66,7 +66,7 @@ ElectricVehicle_Segmentation
 ```bash
 pip install -r requirements.txt
 ```
-### Launch Jupyter Notebook
+### 4. Launch Jupyter Notebook
 ```bash
 jupyter notebook
 ```

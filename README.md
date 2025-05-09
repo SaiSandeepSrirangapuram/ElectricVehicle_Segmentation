@@ -1,42 +1,71 @@
-# Electric Vehicle Segmentation: A Data Science Approach
+# 🚗 Electric Vehicle Segmentation: A Data Science Approach
 
-## Overview
-This repository applies **data science methodologies** to analyze electric vehicle (EV) adoption trends in India. By leveraging **machine learning algorithms**, we uncover key patterns in income-based and geographic segmentation, helping businesses optimize their EV marketing strategies.
+## 📌 Project Overview
 
-## Contents
-- **EV_Income_segmentation.ipynb**: Implementation of **Gaussian Mixture Models (GMM)** and **K-Means clustering** for income segmentation.
-- **Geographic_variable.ipynb**: Application of **hierarchical clustering** and feature engineering for geographic segmentation.
-- **EV Segmentation (IncomeGroup).docx**: Strategic summary linking data insights to business recommendations.
-- **India Household Spending raw_file.xlsx**: Raw dataset for exploratory data analysis (EDA) and feature selection.
-- **Grapical_Variables.pdf**: Data visualizations highlighting key segmentation variables.
-
-## Data Science Techniques
-This project utilizes:
-- **Gaussian Mixture Models (GMM) & K-Means** for clustering income groups.
-- **Hierarchical Clustering** for geographic analysis.
-- **Principal Component Analysis (PCA)** for dimensionality reduction.
-- **Feature scaling & preprocessing** to improve clustering accuracy.
-- **Data visualization with Matplotlib & Seaborn** for actionable insights.
-
-## Installation & Usage
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/SaiSandeepSrirangapuram/ElectricVehicle_Segmentation.git
-    ```
-
-2. Install dependencies:
-    ```bash
-    pip install pandas numpy scikit-learn matplotlib seaborn
-    ```
-
-3. Run Jupyter notebooks to explore clustering and segmentation insights.
-
-## Future Enhancements
-- Integrating **vector databases** for improved knowledge retrieval.
-- Implementing **Retrieval-Augmented Generation (RAG)** to refine AI-driven insights.
-- Enhancing clustering models using **deep learning techniques**.
-
-## About the Author
-**Sai Sandeep** - Data scientist passionate about leveraging machine learning for **market segmentation** and **EV adoption strategies**.
+This project analyzes electric vehicle (EV) adoption trends in India using advanced **data science techniques**. By employing clustering algorithms and geospatial analysis, it identifies key income and geographic segments, offering actionable insights for targeted EV marketing strategies.
 
 ---
+
+## 🧠 Data Science Methodologies Employed
+
+### 1. **Data Preprocessing & Feature Engineering**
+- **Handling Missing Values**: Implemented strategies to manage incomplete data entries.
+- **Normalization**: Applied scaling techniques to ensure uniformity across features.
+- **Feature Creation**: Derived new variables to enhance model performance.
+
+### 2. **Clustering Algorithms**
+- **K-Means Clustering**: Segmented households based on income levels to identify potential EV adopters.
+- **Gaussian Mixture Models (GMM)**: Captured the probabilistic distribution of income segments, allowing for overlapping clusters.
+- **Hierarchical Clustering**: Analyzed geographic data to uncover regional adoption patterns.
+
+### 3. **Dimensionality Reduction**
+- **Principal Component Analysis (PCA)**: Reduced data dimensionality while preserving variance, facilitating more efficient clustering.
+
+### 4. **Model Evaluation Metrics**
+- **Silhouette Score**: Assessed the cohesion and separation of clusters.
+- **Elbow Method**: Determined the optimal number of clusters by analyzing within-cluster sum of squares.
+- **Log-Likelihood**: Evaluated the fit of the GMM model to the data.
+
+### 5. **Data Visualization**
+- **Scatter Plots**: Visualized clustering results and centroids.
+- **Heatmaps**: Displayed correlations between features.
+- **Geospatial Maps**: Illustrated regional EV adoption trends.
+
+---
+
+## 📁 Repository Structure
+
+- `EV_Income_segmentation.ipynb`: Notebook detailing income-based clustering using K-Means and GMM.
+- `Geographic_variable.ipynb`: Notebook focusing on geographic segmentation through hierarchical clustering.
+- `DocumentsAndConclusion/EV Segmentation (IncomeGroup).docx`: Comprehensive report linking data insights to strategic business recommendations.
+- `DataSets/India Household Spending raw_file.xlsx`: Raw dataset utilized for analysis.
+
+---
+
+## 🛠️ Technologies & Libraries
+
+- **Programming Language**: Python
+- **Data Manipulation**: pandas, NumPy
+- **Machine Learning**: scikit-learn
+- **Visualization**: matplotlib, seaborn
+- **Geospatial Analysis**: geopandas, folium
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/SaiSandeepSrirangapuram/ElectricVehicle_Segmentation.git
+
+### 2. Navigate to the Project Directory
+```bash
+ElectricVehicle_Segmentation
+
+### 3. Install Dependencies
+```bash
+pip install -r requirements.txt
+
+### Launch Jupyter Notebook
+```bash
+jupyter notebook

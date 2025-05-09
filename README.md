@@ -70,3 +70,10 @@ pip install -r requirements.txt
 ```bash
 jupyter notebook
 ```
+## Future Enhancements
+- Integrating **vector databases** for improved knowledge retrieval.
+- Implementing **Retrieval-Augmented Generation (RAG)** to refine AI-driven insights.
+- Enhancing clustering models using **deep learning techniques**.
+
+## About the Author
+**Sai Sandeep** - Data scientist passionate about leveraging machine learning for **market segmentation** and **EV adoption strategies**.
